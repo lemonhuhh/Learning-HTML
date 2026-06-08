@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <h1>Register for Event</h1>
+    <p>Fill in the details below to reguster for the event.</p>
+    <div class="maindiv">
+        <form action="#">
+        <div>
+            <div>
+                <h3>Personal Information</h3>
+                <hr>
+            </div>
+            <div>
+                <label for="name">Full Name :</label>
+                <input type="text" placeholder="Enter your full name">
+            </div>
+            <br>
+            <div>
+                <label for="address">Address :</label>
+                <input type="text" placeholder="Enter your address">
+            </div>
+            <div>
+                <p>Phone Number</p>
+                <select>
+                    <option value="country">Nep +977</option>
+                    <option value="country">Jpn +81</option>
+                    <option value="country">Indo +62</option>
+                </select>
+                <input type="tel" placeholder="Enter your number">
+            </div>
+            <br>
+            <div>
+            <label for="Company/Organiztion">Company/Organiztion :</label>
+            <input type="text" placeholder="Enter your company or organization (optional)">
+            </div>
+            <br>
+            <div>
+            <label for="jobtitle">Job Title :</label>
+            <input type="text" placeholder="Enter your job title (optional)">
+            </div>
+            <div>
+                <div>
+                    <h3>Event Information</h3>
+                    <hr>
+                </div>
+                <div>
+                    <label for="eventname">Event Name :</label>
+                    <input type="text" placeholder="Tech Fest 2026">
+                </div>
+                <br>
+                <div>
+                    <label for="date&time">Event Date & Time :</label>
+                    <input type="date">
+                    <input type="time">
+                </div>
+            </div>
+            <div>
+                <div>
+                    <h3>Additional Information</h3>
+                    <hr>
+                </div>
+                <div>
+                    <p>Ticket Type</p>
+                    <select>
+                        <option value="techfest">Tech Fest</option>
+                        <option value="culturalprogram">Cuntral Program</option>
+                        <option value="sports">Sports Week</option>
+                    </select>
+                </div>
+                <br>
+                <div>
+                    <label for="dietary">Dietary Requirements :</label>
+                    <input type="text" placeholder="Enter any dietary requirements (optional)">
+                </div>
+                <br>
+                <div>
+                    <label for="note">Additional Notes :</label>
+                    <textarea rows="5" cols="30" placeholder="Any additional information or notes (optional)"></textarea>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <br>
+        <button>Register Now</button>
+        </form>
+    </div>
+</body>
+</html>
